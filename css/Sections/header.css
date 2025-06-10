@@ -1,6 +1,6 @@
 .header_nav{
     display: flex;
-    overflow:hidden ;
+    overflow: hidden ;
     
 }
 .header_log{
@@ -11,7 +11,7 @@
     
 }
 .header_log-overlay{
-    position:absolute;
+    position: absolute;
     inset: 0;
     width: 100%;
     background-color: rgb(121, 45, 45);

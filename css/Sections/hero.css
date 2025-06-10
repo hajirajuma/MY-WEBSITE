@@ -1,8 +1,8 @@
 .hero{
-    min-height: calc(100vh-74px);
+    min-height: calc(100vh - 74px);
     display: flex;
     overflow: hidden;
-    background-color: rgb(121,45,45);
+   
    
 }
 .hero_image{
@@ -20,6 +20,50 @@
 .hero_overlay{
     position: absolute;
     inset: 0;
-    width:100%;
+    width: 100%;
     z-index: -1;
+    background-color: rgb(121,45,45);
+      
+}
+.hero_image h2{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-family: var(--playfair-display);
+    font-size: 120px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 138px;
+}
+.hero_content{
+    flex: 1.22;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hero_content-info{
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hero_content-info h3{
+    font-size: 80px;
+    font-weight: 600px;
+    font-family: var(--playfair-display);
+    color: #000000
+}
+.hero_content-info p{
+    margin: 32px 0 0 32px;
+    font-family: var(--playfair-display);
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hero_buttons{
+    margin: 41px 0 0 41px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
 }
