@@ -1,0 +1,24 @@
+.header_nav{
+    display: flex;
+    overflow:hidden ;
+    
+}
+.header_log{
+    flex: 1;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    
+}
+.header_log-overlay{
+    position:absolute;
+    inset: 0;
+    width: 100%;
+    background-color: rgb(121, 45, 45);
+    z-index: 1;
+}
+.header_log h1{
+    padding-left: 30px;
+    color: #fff;
+    z-index: 2;
+}
