@@ -49,10 +49,12 @@
     flex-direction: column;
 }
 .hero_content-info h3{
-    font-size: 80px;
+    font-size:80px;
     font-weight: 600px;
     font-family: var(--playfair-display);
-    color: #000000
+    color: #000000;
+    text-align: center ;
+    
 }
 .hero_content-info p{
     margin: 32px 0 0 32px;
@@ -91,6 +93,8 @@
     color: var(--black-200);
     font-family: var(--plus-jakarta-sans);
     cursor: pointer;
+    
+
 
 }
 .play-button img{
@@ -114,6 +118,8 @@
        font-size: 62px;
        font-weight:400;
        font-family: var(--playfair-display);
+       text-align: right;
+       margin-bottom: 0;
 }
 .hero-content_customer p{
         font-size: 16px;

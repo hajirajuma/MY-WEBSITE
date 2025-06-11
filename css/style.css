@@ -1,4 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=plus+Jakarta+sans:wght@200;300;400;500;600;700;800&display=swap");
+
+
 @import url("Sections/header.css");
 @import url("Sections/hero.css");
 @import url("sections/about.css");
 @import url("Sections/popular.css");
+
+
+
+@media screen and (max-width: 550px) {
+    .trending_image img{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .hero_image h2{
+        font-size: 40px;
+        line-height: 600px;
+    }
+}
+@media screen  and (max-width: 550px){
+    .about-us_image {
+        flex-direction: column;
+    }
+}
+:root {
+    --playfair-display: "playfair Display", serif;
+    --plus-jakarta-sans: "plus Jakarta sans", sans-serif;
+}
