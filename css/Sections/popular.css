@@ -174,6 +174,7 @@
     padding: 20px;
     width: 400px;
     height: 136px;
+    background: transparent;
 
 }
 .chezu_image img{
@@ -186,5 +187,53 @@
 .chezu_image p{
     font-size: 16px;
     text-align: center;
+    color: #fff;
+    font-weight: 700;
 
+}
+.Original_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 136px;
+    
+}
+.Original_image img {
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    align-items: center;
+}
+.Original_image p {
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+.Ramen_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 136px;
+    background: transparent;
+}
+.Ramen_image img {
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    align-items: center;
+}
+.Ramen_image p {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
 }
