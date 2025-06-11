@@ -1,0 +1,108 @@
+.aboutUs {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+
+}
+.aboutUs_image {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color-white);
+
+}
+.aboutUs_image div {
+    padding: 32px 64px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.aboutUs_image-sushi3 {
+    border-bottom: 8px solid var(--color-creamson);
+    background-image: url("../../assets/about_bg1.png");
+}
+.aboutUs_image-sushi2 {
+    background-image: url("../../assets/about_bg2.png");
+}
+.aboutUs_image-sushi3 img {
+    width: 225px;
+    height: 200px;
+
+}
+.aboutUs_image-sushi2 img {
+    width: 240px;
+    height: 160px;
+}
+.aboutUs_button {
+    position: absolute;
+    right: 0;
+    padding: 12px 32px;
+    min-height: 64px;
+    background: #000000;
+    border-radius: 32px 0 0 32px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    cursor: pointer;
+}
+.aboutUs_button img {
+    object-fit: contain;
+    margin-left: 32px;
+}
+.aboutUs_content {
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sushi_subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    opacity: 0.8;
+    letter-spacing: -0.01em; ;
+}
+.sushi_title {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(playfair-display);
+    color: var(--secondary-color);
+    margin-top: 16px;
+}
+.sushi_description {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--plus-jakarta-sans);
+    min-height: 36px;
+    letter-spacing: -0.01em;
+}
+.sushi_hide-scrollbar::-webkit-scrollbar {
+    display: none;
+
+}
+.sushi_hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

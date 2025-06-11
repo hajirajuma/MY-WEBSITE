@@ -2,6 +2,7 @@
     display: flex;
     overflow: hidden ;
     
+    
 }
 .header_log{
     flex: 1;
@@ -14,6 +15,7 @@
     position: absolute;
     inset: 0;
     width: 100%;
+    
     background-color: rgb(121, 45, 45);
     z-index: 1;
 }
@@ -22,7 +24,16 @@
     color: #fff;
     z-index: 2;
 }
-.header_list li {
+.header_menu, .header_menu-mobile{
+    padding: 20px;
+    flex: 1.236px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+    list-style: none;
+}
+.header_menu li {
     font-weight: 500;
     font-family: var(--plus-jakarta-sans);
     color: #000000;
@@ -36,7 +47,7 @@
     height: 120%;
     word-spacing: 30px;
 }
-.header_list li a{
+.header_menu li a{
     color:#000000;
     text-decoration: none;
     
