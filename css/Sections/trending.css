@@ -1,0 +1,104 @@
+/* Base styles */
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #fdfdfd;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .trending_sushi,
+  .trending_drinks {
+    flex: 1 1 300px;
+    max-width: 45%;
+  }
+  
+  .trending_sushi h2,
+  .trending_drinks h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .trending_sushi p,
+  .trending_drinks p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .trending_sushi ul,
+  .trending_drinks ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .trending_sushi ul li,
+  .trending_drinks ul li {
+    background: #ffe8b2;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  
+  .sushi5, .sushi4 {
+    flex: 1 1 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sushi5 img, .sushi4 img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+  
+  .discover_circle {
+    flex: 1 1 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .discover_circle h7 {
+    font-size: 1.5rem;
+    background: #f4f4f4;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+  }
+  
+  /* Responsive Breakpoints */
+  @media (max-width: 1024px) {
+    .trending_sushi,
+    .trending_drinks {
+      max-width: 100%;
+    }
+  
+    .sushi5, .sushi4 {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .trending {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .trending_sushi, .trending_drinks {
+      text-align: center;
+    }
+  
+    .trending_sushi ul,
+    .trending_drinks ul {
+      justify-content: center;
+    }
+  }
+  
