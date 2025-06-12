@@ -65,13 +65,18 @@
     text-align: center;
     margin: 1rem 0;
   }
+  .discover_btn {
+    background-color: #000;
+    border-radius: 20px;
+  }
   
-  .discover_circle h7 {
+  .discover_circle h1 {
     font-size: 1.5rem;
-    background: #f4f4f4;
+    
     display: inline-block;
     padding: 0.5rem 1rem;
-    border-radius: 50px;
+    border-radius: 20px;
+    color: #fff;
   }
   
   /* Responsive Breakpoints */

@@ -1,6 +1,6 @@
 /* Base Styles */
 .get_offers-section {
-    background-color: #fff5ee;
+    background-color: rgb(121,45,45);
     padding: 3rem 2rem;
     text-align: center;
     font-family: sans-serif;
@@ -11,16 +11,18 @@
   }
   
   .get_offers h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #222;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0;
+    padding: 0;
   }
   
   .get_offers p1 {
     font-size: 1rem;
-    color: #555;
+    color: #b89d9de7;
     display: block;
-    margin-top: 0.5rem;
+    margin-bottom: 1rem;
   }
   
   
@@ -43,7 +45,7 @@
   }
   
   .get_started {
-    background-color: #ff6347;
+    background-color: #000111;
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;

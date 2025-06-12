@@ -1,11 +1,95 @@
-footer {
-    background-color: #1a1a1a;
-    color: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    background-color: #fff;
+    color: #000;
     padding: 2.5rem 2rem;
     font-family: sans-serif;
+    flex-wrap: wrap;
+  }
+  .log {
+    font-size: 3rem;
+    font-weight: 700;
+    
+  }
+  .log red {
+    color: rgb(108, 9, 9);
+  }
+  .log black {
+    color: black;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    
+  }
+  .nav-links ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    word-spacing: 100px;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .nav-links a:hover {
+    color: red;
+  }
+  .social_icons ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
+  }
+  .social_icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .facebook {
+    border-radius: 6px;
+    background-color: #000;
+  }
+  .instagram {
+    border-radius: 6px;
+    background-color: #000;
+  }
+  .twitter {
+    border-radius: 6px;
+    background-color: #000;
+  }
+  .social_icons img:hover {
+    transform: scale(1.2);
+  }
+  /*Responsive */
+  @media screen and(max-width: 768px) {
+    footer.navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+      gap: 20px;
+    }
+    .nav-links ul,
+    .social_icons ul {
+      flex-direction: column;
+      gap: 10px;
+    }
   }
   
-  .footer_nav {
+ /*
+ 
+ .footer_nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -13,7 +97,7 @@ footer {
     gap: 2rem;
   }
   
-  /* Logo */
+   Logo 
   .footer_log {
     position: relative;
   }
@@ -37,7 +121,7 @@ footer {
     opacity: 0.3;
   }
   
-  /* Menu List - Horizontal */
+   Menu List - Horizontal 
   .footer_menu {
     list-style: none;
     display: flex;
@@ -57,7 +141,7 @@ footer {
     color: #ff6347;
   }
   
-  /* Social Icons List - Horizontal */
+   Social Icons List - Horizontal 
   .footer_icons {
     list-style: none;
     display: flex;
@@ -82,7 +166,7 @@ footer {
     transform: scale(1.2);
   }
   
-  /* Responsive Layout */
+   Responsive Layout 
   @media (max-width: 768px) {
     .footer_nav {
       flex-direction: column;
@@ -98,6 +182,7 @@ footer {
     .footer_icons {
       justify-content: center;
     }
-  }
+  } 
+  */
   
   

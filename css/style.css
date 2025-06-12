@@ -7,6 +7,8 @@
 @import url("sections/about.css");
 @import url("Sections/popular.css");
 @import url("Sections/trending.css");
+@import url("Sections/footer.css");
+@import url("Sections/get.css");
 
 
 @media screen and (max-width: 550px) {
