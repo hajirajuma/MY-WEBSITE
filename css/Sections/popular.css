@@ -1,5 +1,135 @@
 
 .popular-foods {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .popular-foods_title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  
+  .popular-foods_filters-sushi_hide-scrollbar {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    scroll-behavior: smooth;
+  }
+  
+  .popular-foods_filters-sushi_hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  .popular-foods_filters-sushi_hide-scrollbar button {
+    white-space: nowrap;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .popular-foods_filter-btn-active {
+    background-color: #ff6347;
+    color: white;
+  }
+  
+  .popular-foods_filters-sushi_hide-scrollbar img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  /* ===== Catalogue Button ===== */
+  .popular-foods_catalogue {
+    text-align: center;
+  }
+  
+  .popular-foods_button {
+    background-color: #222;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .popular-foods_button img {
+    width: 18px;
+  }
+  
+  /* ===== Food Images Grid ===== */
+  .popular-foods_images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .popular-foods_images button {
+    background: #fafafa;
+    border: none;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .popular-foods_images button:hover {
+    transform: translateY(-5px);
+  }
+  
+  .popular-foods_images img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  .popular-foods_images p {
+    font-weight: 500;
+    color: #333;
+    font-size: 0.95rem;
+  }
+  
+  /*Responsive Adjustments  */
+  @media (max-width: 768px) {
+    .popular-foods_title {
+      font-size: 1.5rem;
+    }
+  
+    .popular-foods_button {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .popular-foods_images {
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+  }
+  
+
+/*
+.popular-foods {
     flex: 1;
     display: flex;
     
@@ -240,4 +370,4 @@
     text-align: center;
     color: #fff;
     font-weight: 700;
-}
+} */

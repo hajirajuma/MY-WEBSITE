@@ -1,0 +1,82 @@
+/* Base Styles */
+.get_offers-section {
+    background-color: #fff5ee;
+    padding: 3rem 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .get_offers h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .get_offers p1 {
+    font-size: 1rem;
+    color: #555;
+    display: block;
+    margin-top: 0.5rem;
+  }
+  
+  
+  .get_offers-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .get_offers-input {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    min-width: 250px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .get_started {
+    background-color: #ff6347;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .get_started:hover {
+    background-color: #e5533d;
+  }
+  
+   /*Responsive*/
+  @media (max-width: 768px) {
+    .get_offers h1 {
+      font-size: 1.5rem;
+    }
+  
+    .get_offers p1 {
+      font-size: 0.95rem;
+    }
+  
+    .get_offers-form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .get_offers-input,
+    .get_started {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  
