@@ -7,8 +7,8 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #fff;
-    color: #222;
+   /*background-color: #e5a3a3;
+    color: #222;*/
   }
   
   /*  About Us Section  */
@@ -31,21 +31,60 @@
     position: relative;
   }
   
-  .aboutUs_image-sushi3 img,
+/* .aboutUs_image-sushi3 img,
   .aboutUs_image-sushi2 img {
-    max-width: 240px;
-    width: 100%;
-    height: auto;
+    max-width: 240%; 
+    width: 100%;     
+    height: auto;     
     border-radius: 1rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);*/
+  
+  .aboutUs_image-sushi3 img {
+    max-width: 260px;
+    margin-left: 20px;
+    padding: 50px;
+    height: auto;
+  }
+  .aboutUs_image-sushi2 img {
+    margin-left: 20px;
+    max-width: 280px;
+    padding: 50px;
+    height: auto;
   }
   
   .aboutUs_image-sushi3 {
     align-self: flex-start;
+    display: flex;
+    max-height: 240%;
+    width: 100%;     
+    height: auto;     
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color:rgb(121, 45, 45);
+    gap: 1rem;
+  /*  width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    flex-direction: column;*/
+  }
+  .aboutUs_image-sushi2 {
+    align-self: flex-start;
+    display: flex;
+    max-height: 240%;
+    width: 100%;     
+    height: auto;     
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(121, 45, 45);
+    gap: 1rem;
+   /* width: 100%;
+    height: 100%;
+    background-color: #d08585;
+    flex-direction: column;*/
   }
   
   .aboutUs_image-sushi2 {
-    align-self: flex-end;
+    align-self: flex-start;
   }
   
   /*  Learn More Button  */
@@ -54,13 +93,15 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: #ff6347;
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 50px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    align-self: last baseline;
+    
   }
   
   .aboutUs_button img {
@@ -81,6 +122,9 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-size: 2rem;
+    
+    
   }
   
   .sushi_subtitle {

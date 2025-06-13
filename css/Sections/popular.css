@@ -23,7 +23,11 @@
     gap: 1rem;
     padding-bottom: 1rem;
     scroll-behavior: smooth;
+    align-items: center;
+    justify-content: center;
+       
   }
+  
   
   .popular-foods_filters-sushi_hide-scrollbar::-webkit-scrollbar {
     display: none; /* Hide scrollbar */
@@ -112,8 +116,8 @@
     height: 155px;
   }
   .chezu_image img{
-    width: 90px;
-    height: 155px;
+    max-width: 200px;
+    height: auto;
   }
   .Ramen_image img {
     width: 90px;
@@ -136,6 +140,7 @@
     border-radius: 20px;
     align-items: center;
     justify-content: center;
+    
   }
   .Ramen_image {
     color: #fff;
