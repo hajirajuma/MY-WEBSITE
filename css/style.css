@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=plus+Jakarta+sans:wght@200;300;400;500;600;700;800&display=swap");
 
 
-@import url("Sections/header.css");
-@import url("Sections/hero.css");
-@import url("sections/aboutUs.css");
-@import url("Sections/popular.css");
-@import url("Sections/trending.css");
-@import url("Sections/footer.css");
-@import url("Sections/get.css");
+@import url("./Sections/header.css");
+@import url("./Sections/hero.css");
+@import url("./sections/aboutUs.css");
+@import url("./Sections/popular.css");
+@import url("./Sections/trending.css");
+@import url("./Sections/footer.css");
+@import url("./Sections/get.css");
 
 
 @media screen and (max-width: 550px) {
